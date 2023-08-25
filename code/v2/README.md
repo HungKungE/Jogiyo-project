@@ -125,7 +125,7 @@
     영어단어 암기 커리큘럼 서비스 관련 admin api를 구현했다.
   </br>
   
-  - [curriculum 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/admin/curriculum)
+  - [curriculum 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/curriculum)
   
 ### 사용 skills
   <div>
@@ -143,7 +143,7 @@
     curriculum에서 사용하는 1일 치 단어들의 정보를 가져오는 api를 구현했다. 
   </br>
 
-   - [vocabulary 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/admin/voca)
+   - [vocabulary 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/voca)
   
 ### 사용 skills
   <div>
@@ -161,8 +161,8 @@
     사용자에게 제공하는 문제집 관련 데이터와 사용자의 정보를 가져오는 api를 구현했다. 
   </br>
 
-  - [workbook 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/admin/workbook)
-  - [user 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/admin/user)
+  - [workbook 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/workbook)
+  - [user 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/user)
   
 ### 사용 skills
   <div>
