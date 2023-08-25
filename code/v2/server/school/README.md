@@ -18,6 +18,9 @@ csv파일 -> json으로 변환하여 사용했다.
 </br>
 여기서 paginate, fetch_page를 처음 사용했다.
 </br>
+
+### paginate
+
 paginate, fetch_page는 select 결과 데이터들을 특정 단위의 페이지로 나누고 특정 순서의 페이지를 가져오는 기능이다.
 </br>
 이를 사용하면 모든 데이터를 불러오지 않으므로 초기 로딩 속도를 향샹시킬 수 있다.
