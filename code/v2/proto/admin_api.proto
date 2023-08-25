@@ -1,0 +1,72 @@
+syntax = "proto3";
+
+package jogiyo.workbook;
+
+// User_id로 UserWorkbookData 받아오는 api
+message GetUserDataRequest {
+  int32 user_id = 1;
+}
+
+message GetUserDataResponse {
+  repeated UserWorkbookMetadata user_workbook_metadatas = 1;
+
+  repeated UserGeneratedWorkbook user_generated_workbook_metadatas = 2;
+
+  string error = 3;
+}
+
+// curriculum data 받아오는 api
+message GetCurriculumDataRequest {
+}
+
+message GetCurriculumDataResponse {
+  repeated CurriculumMetadata curriculum_metadatas = 1;
+
+  string error = 2;
+}
+
+// voca 단어 수정 api
+message UpdateVocabularySetRequest {
+  VocabularySet update_vocabulary_set = 1;
+}
+
+message UpdateVocabularySetResponse {
+  string error = 1;
+}
+
+// curriculum image 수정 api
+
+message UpdateCurriculumThumbnailRequest {
+  int32 curriculum_id = 1;
+
+  // If true, then thumbnail image will be replaced with the updated data.
+  bool update_thumbnail_image = 2;
+
+  bool update_thumbnail_gif = 3;
+}
+
+// curriculum thumbnail update api
+
+message UpdateCurriculumThumbnailResponse {
+  string error = 1;
+}
+
+message GetUserInfoRequest {}
+
+message GetUserInfoResponse {
+  repeated UserInfo user_infos = 1;
+
+  string error = 2;
+}
+
+// user가 푼 문제집 data 확인하는 api
+
+message GetUserWorkbookPageMetadatasRequest {
+  int32 user_id = 1;
+}
+
+message GetUserWorkbookPageMetadatasResponse {
+  repeated UserWorkbookPage user_workbook_pages = 1;
+
+  string error = 2;
+}
