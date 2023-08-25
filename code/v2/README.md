@@ -1,6 +1,4 @@
-# v2 : 태블릿 전용 문제집 웹 사이트
-
-## 프로젝트 소개
+## v2 : 태블릿 전용 문제집 웹 사이트
 
 ![image](https://github.com/HungKungE/Jogiyo-v2/assets/84065412/33ff7a22-a540-4540-817a-5b3786429cb9)
 
@@ -14,15 +12,11 @@
 진행 기간 : 2022.08 ~ 2022.12
 </br>
 
----
+## 프로젝트 자료 :books:
 
-## 프로젝트 자료
+:notebook_with_decorative_cover: [서비스 디자인 문서](https://docs.google.com/document/d/1sjdeP5pTJ3hGAOYfTTb8Vf2y_o755gf8aqhGPMYWu-M/edit#heading=h.7fet0jbsxwh6)
 
-- [서비스 디자인 문서](https://docs.google.com/document/d/1sjdeP5pTJ3hGAOYfTTb8Vf2y_o755gf8aqhGPMYWu-M/edit#heading=h.7fet0jbsxwh6)
-
-</br>
-
-- [페이지 디자인](https://www.figma.com/file/Uj6PNk5oF0ZyyrbG5a6KxG/Jogiyo-v2-UI?type=design&node-id=0-1&mode=design&t=0DCZ4sSJPMo2RI8u-0)
+:pencil: [페이지 디자인](https://www.figma.com/file/Uj6PNk5oF0ZyyrbG5a6KxG/Jogiyo-v2-UI?type=design&node-id=0-1&mode=design&t=0DCZ4sSJPMo2RI8u-0)
 </br>
 
 ## 주요 기능
@@ -31,7 +25,9 @@
 <summary><b>나의 문제집</b></summary>
 <div markdown="1">
   </br>
-  내가 풀었던 문제집들을 확인하고 이어서 풀거나 오답노트 확인할 수 있다.
+  
+  > 내가 풀었던 문제집들을 확인하고 이어서 풀거나 오답노트 확인할 수 있다.
+  
   </br>
   
   ![myStudyRoom1](https://github.com/HungKungE/Jogiyo-v2/assets/84065412/26154547-6306-4c09-a1f2-41a15a75cb7c)
@@ -39,24 +35,28 @@
 
 </div>
 </details>
-</br>
+
 <details>
 <summary><b>문제집 검색</b></summary>
 <div markdown="1">
   </br>
-  여러 조건을 통해서 문제집을 검색할 수 있다.
+  
+  > 여러 조건을 통해서 문제집을 검색할 수 있다.
+  
   </br>
   
   ![믄제집찾기](https://github.com/HungKungE/Jogiyo-v2/assets/84065412/de75c94c-bc7a-4735-b3ed-c0457e96f82e)
 
 </div>
 </details>
-</br>
+
 <details>
 <summary><b>문제 풀기</b></summary>
 <div markdown="1">
   </br>
-  온라인으로 문제집을 풀면서 채점할 수 있다.
+  
+  > 온라인으로 문제집을 풀면서 채점할 수 있다.
+  
   </br>
   
   ![풀기](https://github.com/HungKungE/Jogiyo-v2/assets/84065412/ff15dc56-833e-4786-b4a4-ed6edf837369)
@@ -64,11 +64,10 @@
 
 </div>
 </details>
-</br>
 
 ## 나의 개발 기능
 
-### client
+### ◽client
 
 <details>
 <summary><b>사용자 정보 입력 페이지</b></summary>
@@ -79,14 +78,17 @@
   사용자의 닉네임, 학년, 학교 정보를 입력받는다.
   </br>
   
-### 사용 skills
+
+  </br>
+  
+  > 사용 skills
   <div>
     <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
     <img src="https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
     <img src="https://img.shields.io/badge/tailwindcss-F7DF1E?style=for-the-badge&logo=tailwindcss&logoColor=white">
   </div>
 
-### 페이지 디자인
+> 페이지 디자인
 
 ![정보입력](https://github.com/HungKungE/Jogiyo-v2/assets/84065412/fec1bed9-2f70-403c-b3a6-f403d5a9499a)
 
@@ -97,37 +99,43 @@
 <summary><b>문제집 검색 기능 구현</b></summary>
 <div markdown="1">
   </br>
+  
   문제집 이름, 문제집 태그를 통해서 문제집을 검색하는 기능을 구현했다.
+  
+  
+
   </br>
   
-### 사용 skills
+  > 사용 skills
   <div>
     <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
     <img src="https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
     <img src="https://img.shields.io/badge/tailwindcss-F7DF1E?style=for-the-badge&logo=tailwindcss&logoColor=white">
   </div>
 
-### 페이지 디자인
+> 페이지 디자인
 
 ![믄제집찾기](https://github.com/HungKungE/Jogiyo-v2/assets/84065412/2f6fb1cd-b74a-4e4c-b4ef-f806866dce49)
 
 </div>
 </details>
 
----
-
-### server
+### ◽server
 
 <details>
 <summary><b>curriculum api</b></summary>
 <div markdown="1">
   </br>
-    영어단어 암기 커리큘럼 서비스 관련 admin api를 구현했다.
-  </br>
+  
+  > 영어단어 암기 커리큘럼 서비스 관련 admin api를 구현했다.
+  
   
   - [curriculum 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/curriculum)
   
-### 사용 skills
+
+  </br>
+  
+  > 사용 skills
   <div>
     <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white">
     <img src="https://img.shields.io/badge/sea_orm-000000?style=for-the-badge&logo=rust&logoColor=white">
@@ -140,12 +148,16 @@
 <summary><b>vocabulary api</b></summary>
 <div markdown="1">
   </br>
-    curriculum에서 사용하는 1일 치 단어들의 정보를 가져오는 api를 구현했다. 
-  </br>
+  
+  > curriculum에서 사용하는 1일 치 단어들의 정보를 가져오는 api를 구현했다. 
+  
 
    - [vocabulary 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/voca)
   
-### 사용 skills
+
+  </br>
+  
+  > 사용 skills
   <div>
     <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white">
     <img src="https://img.shields.io/badge/sea_orm-000000?style=for-the-badge&logo=rust&logoColor=white">
@@ -158,13 +170,17 @@
 <summary><b>workbook & user api</b></summary>
 <div markdown="1">
   </br>
-    사용자에게 제공하는 문제집 관련 데이터와 사용자의 정보를 가져오는 api를 구현했다. 
-  </br>
+  
+  > 사용자에게 제공하는 문제집 관련 데이터와 사용자의 정보를 가져오는 api를 구현했다. 
+  
 
   - [workbook 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/workbook)
   - [user 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/user)
   
-### 사용 skills
+
+  </br>
+  
+  > 사용 skills
   <div>
     <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white">
     <img src="https://img.shields.io/badge/sea_orm-000000?style=for-the-badge&logo=rust&logoColor=white">
@@ -176,12 +192,15 @@
 <summary><b>school api</b></summary>
 <div markdown="1">
   </br>
-    공공데이터인 전국 학교 리스트 관련 api를 구현했다. 
-  </br>
+  
+  > 공공데이터인 전국 학교 리스트 관련 api를 구현했다. 
+  
   
   - [school 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/school)
+
+  </br>
   
-### 사용 skills
+  > 사용 skills
   <div>
     <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white">
     <img src="https://img.shields.io/badge/sea_orm-000000?style=for-the-badge&logo=rust&logoColor=white">
@@ -194,7 +213,11 @@
 
 ## 프로젝트 후기
 
-처음으로 웹 사이트를 개발하는 프로젝트를 진행하게 되서 좋은 경험이었다.
+3학년 1학기가 끝난 여름방학에 운 좋게 인연이 닿아 2학년 때 팀플을 같이 했던 선배가 창업한 스타트업 프로젝트에 참여하게 되었다.
+</br>
+그 동안, 학교에서는 c, c++, c#, bash 등을 사용한 로컬 프로그램 개발 프로젝트만 경험해봐서 웹 서비스 개발 프로젝트는 처음이었다. 
+</br>
+
 </br>
 client : react, typescript, tailwind-css 를 활용하여 동적 폼 client 개발 경험을 할 수 있었다.
 </br>
