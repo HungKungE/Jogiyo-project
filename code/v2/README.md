@@ -11,14 +11,19 @@
 전반적으로 학습에 도움을 줄 수 있는 기능을 담은 것이 특징입니다.
 </br>
 </br>
-진행 기간 : 2022.08 ~ 2023.10
+진행 기간 : 2022.08 ~ 2022.12
+</br>
 
 ---
 
 ## 프로젝트 자료
 
 - [서비스 디자인 문서](https://docs.google.com/document/d/1sjdeP5pTJ3hGAOYfTTb8Vf2y_o755gf8aqhGPMYWu-M/edit#heading=h.7fet0jbsxwh6)
+
+</br>
+
 - [페이지 디자인](https://www.figma.com/file/Uj6PNk5oF0ZyyrbG5a6KxG/Jogiyo-v2-UI?type=design&node-id=0-1&mode=design&t=0DCZ4sSJPMo2RI8u-0)
+</br>
 
 ## 주요 기능
 
@@ -34,7 +39,7 @@
 
 </div>
 </details>
-
+</br>
 <details>
 <summary><b>문제집 검색</b></summary>
 <div markdown="1">
@@ -46,7 +51,7 @@
 
 </div>
 </details>
-
+</br>
 <details>
 <summary><b>문제 풀기</b></summary>
 <div markdown="1">
@@ -59,11 +64,14 @@
 
 </div>
 </details>
+</br>
 
 ## 나의 개발 기능
 
+### client
+
 <details>
-<summary><b>사용자 정보 입력 페이지(client)</b></summary>
+<summary><b>사용자 정보 입력 페이지</b></summary>
 <div markdown="1">
   </br>
   회원 가입 시, 사용자의 정보를 입력하는 페이지 디자인과 구현을 맡았다.
@@ -86,7 +94,7 @@
 </details>
 
 <details>
-<summary><b>문제집 검색 기능 구현(client)</b></summary>
+<summary><b>문제집 검색 기능 구현</b></summary>
 <div markdown="1">
   </br>
   문제집 이름, 문제집 태그를 통해서 문제집을 검색하는 기능을 구현했다.
@@ -106,25 +114,91 @@
 </div>
 </details>
 
+---
+
+### server
+
 <details>
-<summary><b>curriculum api 추가</b></summary>
+<summary><b>curriculum api</b></summary>
 <div markdown="1">
   </br>
-    영어 단어장의 커리큘럼의 관련 데이터를 가져오는 api를 개발했다. 
+    영어단어 암기 커리큘럼 서비스 관련 admin api를 구현했다.
   </br>
+  
+  - [curriculum 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/admin/curriculum)
   
 ### 사용 skills
   <div>
-    <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
-    <img src="https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
-    <img src="https://img.shields.io/badge/tailwindcss-F7DF1E?style=for-the-badge&logo=tailwindcss&logoColor=white">
-      <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white">
+    <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white">
+    <img src="https://img.shields.io/badge/sea_orm-000000?style=for-the-badge&logo=rust&logoColor=white">
+    <img src="https://img.shields.io/badge/Multipart-000000?style=for-the-badge&logo=rust&logoColor=white">
   </div>
 </div>
 </details>
 
-### 프로젝트 후기
+<details>
+<summary><b>vocabulary api</b></summary>
+<div markdown="1">
+  </br>
+    curriculum에서 사용하는 1일 치 단어들의 정보를 가져오는 api를 구현했다. 
+  </br>
+
+   - [vocabulary 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/admin/voca)
+  
+### 사용 skills
+  <div>
+    <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white">
+    <img src="https://img.shields.io/badge/sea_orm-000000?style=for-the-badge&logo=rust&logoColor=white">
+    <img src="https://img.shields.io/badge/ActiveModel-000000?style=for-the-badge&logo=rust&logoColor=white">
+  </div>
+</div>
+</details>
+
+<details>
+<summary><b>workbook & user api</b></summary>
+<div markdown="1">
+  </br>
+    사용자에게 제공하는 문제집 관련 데이터와 사용자의 정보를 가져오는 api를 구현했다. 
+  </br>
+
+  - [workbook 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/admin/workbook)
+  - [user 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/admin/user)
+  
+### 사용 skills
+  <div>
+    <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white">
+    <img src="https://img.shields.io/badge/sea_orm-000000?style=for-the-badge&logo=rust&logoColor=white">
+  </div>
+</div>
+</details>
+
+<details>
+<summary><b>school api</b></summary>
+<div markdown="1">
+  </br>
+    공공데이터인 전국 학교 리스트 관련 api를 구현했다. 
+  </br>
+  
+  - [school 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/school)
+  
+### 사용 skills
+  <div>
+    <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white">
+    <img src="https://img.shields.io/badge/sea_orm-000000?style=for-the-badge&logo=rust&logoColor=white">
+    <img src="https://img.shields.io/badge/paginate-000000?style=for-the-badge&logo=rust&logoColor=white">
+    <img src="https://img.shields.io/badge/ActiveModel-000000?style=for-the-badge&logo=rust&logoColor=white">
+  </div>
+</div>
+</details>
+</br>
+
+## 프로젝트 후기
 
 처음으로 웹 사이트를 개발하는 프로젝트를 진행하게 되서 좋은 경험이었다.
-react를 사용한 페이지 구현, rust 코드로 간단한 api 개발등의 경험을 하게되어
-웹 사이트 개발의 기초를 다질 수 있었다.
+</br>
+client : react, typescript, tailwind-css 를 활용하여 동적 폼 client 개발 경험을 할 수 있었다.
+</br>
+server : 한국에서는 생소한 rust 언어를 사용하여 api 개발을 경험 할 수 있었다.
+</br>
+처음으로 back-end 개발을 시도했기 때문에, 사용자들에게 제공되는 api보다는 admin이 사용할 수 있는 간단한 api 위주로 구현했었는데
+이런 점은 좋은 기회기도 했으나, 스스로 서비스를 만들어보지 못해 아쉬움을 느꼈다.
