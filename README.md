@@ -11,5 +11,5 @@
 
 ### 프로젝트 버전
 
-- [v2 : 태블릿 전용 문제집 웹 사이트]()
-- [v3 : 노트 필기 및 공유 커뮤니티]()
+- [v2 : 태블릿 전용 문제집 웹 사이트](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2)
+- [v3 : 노트 필기 및 공유 커뮤니티](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v3)
