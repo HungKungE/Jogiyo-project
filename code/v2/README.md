@@ -131,6 +131,11 @@
   
   
   - [curriculum 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/curriculum)
+
+  | 종류 | api | 개발 내용 |
+  | ----- | ----- | ----- |
+  | 구현 | get_curriculum_metadata  | 직렬화 된 curriculum data를 역직렬화하여 admin page에서 열람하는 api를 구현했다. |
+  | 구현 | update_curriculum_thumbnail  | curriculum thumbnail image를 업데이트하는 api이다. |
   
 
   </br>
@@ -154,7 +159,9 @@
 
    - [vocabulary 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/voca)
   
-
+  | 종류 | api | 개발 내용 |
+  | ----- | ----- | ----- |
+  | 구현 | update_vocabulary_set | 단어장 내용을 수정하는 api를 구현했다. |
   </br>
   
   > 사용 skills
@@ -176,7 +183,12 @@
 
   - [workbook 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/workbook)
   - [user 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/user)
-  
+
+  | 종류 | api | 개발 내용 |
+  | ----- | ----- | ----- |
+  | 구현 | get_user_info | 모든 user_info data를 가져오는 api를 구현했다. |
+  | 구현 | get_user_data  | 문제집 데이터인 workbook data와, 사용자의 문제집 진도 정보 user_generated_workbook data를 가져오는 api를 구현했다. |
+  | 구현 | get_user_workbook_page | 특정 사용자의 문제집 특정 페이지 필기 데이터를 가져오는 api를 구현했다. |
 
   </br>
   
@@ -198,6 +210,11 @@
   
   - [school 코드 확인](https://github.com/HungKungE/Jogiyo-v3/tree/main/code/v2/server/school)
 
+  | 종류 | api | 개발 내용 |
+  | ----- | ----- | ----- |
+  | 구현 | get_school_metadata  | 입력받은 search_keyword가 포함된 학교 리스트를 전송하는 api를 구현했다. |
+  | 구현 | upload_school_json  | 학교 리스트 json을 db에 업로드하는 api이다. |
+  
   </br>
   
   > 사용 skills
