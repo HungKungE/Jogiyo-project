@@ -20,10 +20,10 @@
 </br>
 request 시에 다음과 같은 정보를 서버에 전송한다.
 
---sh
+```sh
 string shared_file_url = 1;
-
-## optional string parent_directory_file_url = 2;
+optional string parent_directory_file_url = 2;
+```
 
 </br>
 parent_directory_file_url은 파일을 이동 시킬 폴더의 id를 변환시킨 shared_link(&str)이다.
