@@ -19,17 +19,19 @@ if let 이라는 새로운 문법을 배울 수 있었다.
 
 예를 들어 num_a가 Some(5) 라는 Optional 타입일 때
 </br>
---sh
+
+```sh
 let num_b : String = if let Some(a) = num_a {
-if (a>=5){
-"big".to_owned()
+  if (a>=5){
+    "big".to_owned()
+  } else {
+    "small".to_owned()
+  }
 } else {
-"small".to_owned()
+    "none".to_owned()
 }
-} else {
-"none".to_owned()
-}
---
+```
+
 위와 같은 문법을 사용하면 num_b는 num_a가 Some(5)이므로
 </br>
 num_b 값은 "big"이라는 String이 된다.
