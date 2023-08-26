@@ -1,0 +1,59 @@
+// group 이름, 소개글, 아이콘, 배경사진을 바꿈.
+message UpdateUserGroupRequest {
+  string user_group_url = 1;
+
+  optional string group_name = 2;
+
+  optional string group_intro = 3;
+
+  optional int32 group_icon = 4;
+
+  jogiyo.community.GroupHeaderImageInfo group_header_image_info = 5;
+
+  bool is_image_file_delete = 6;
+}
+
+message UpdateUserGroupResponse {
+  string error = 1;
+}
+
+// 유저 닉네임을 이용하여 그룹에서 추방
+message KickUserFromGroupRequest {
+  string user_group_url = 1;
+
+  string kicked_user_nickname = 2;
+}
+
+message KickUserFromGroupResponse {
+  string error = 1;
+}
+
+// 그룹 url로 share link를 만듦.
+message GetUserGroupSharedLinkRequest {
+  string group_url= 1;
+}
+
+message GetUserGroupSharedLinkResponse {
+  string share_link = 1;
+  string error = 2;
+}
+
+// share_link로 group info 받음.
+message GetUserGroupFromSharedLinkRequest {
+  string share_link = 1;
+}
+
+message GetUserGroupFromSharedLinkResponse {
+  string group_name = 1;
+
+  string group_intro = 2;
+
+  int32 group_icon = 3;
+
+  // (Max 10) members in the user group.
+  repeated UserGroupMember member_list = 4;
+
+  jogiyo.community.GroupHeaderImageInfo group_header_image_info = 5;
+
+  string error = 6;
+}

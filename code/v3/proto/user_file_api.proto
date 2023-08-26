@@ -1,0 +1,28 @@
+// 사용자 Files 불러옴
+message GetUserFilesRequest {
+  repeated UserFile.FileType file_types = 1;
+
+  // 불러올 파일 개수
+  int32 num_fetch = 2;
+
+  // 언제 부터 가져올 것인지. 해당 시간 보다 이전에 생성된 파일들만 가져온다.
+  // 예를 들어서 최근 파일을 가져오고 싶을 경우 latest_file_creation_time 을 현재 시간으로 주면 된다.
+  google.protobuf.Timestamp latest_file_creation_time = 3;
+}
+
+message GetUserFilesResponse {
+  repeated RenderableUserFile note_files = 1;
+
+  string error = 2;
+}
+
+// 파일을 이동시킴
+message MoveUserFileRequest {
+  string shared_file_url = 1;
+
+  optional string parent_directory_file_url = 2;
+}
+
+message MoveUserFileResponse {
+  string error = 1;
+}
