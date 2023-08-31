@@ -1,6 +1,6 @@
 ## v2 : 태블릿 전용 문제집 웹 사이트
 
-![image](https://github.com/HungKungE/Jogiyo-v2/assets/84065412/33ff7a22-a540-4540-817a-5b3786429cb9)
+![캡처1](https://github.com/HungKungE/Jogiyo-project/assets/84065412/b547c66e-f9b2-4abc-8ee0-4da0c7089dc2)
 
 스타트업 "모두의 코드"에서 진행한
 </br>
