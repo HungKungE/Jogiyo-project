@@ -30,8 +30,8 @@
   
   </br>
   
-  ![myStudyRoom1](https://github.com/HungKungE/Jogiyo-v2/assets/84065412/26154547-6306-4c09-a1f2-41a15a75cb7c)
-![myStudyRoom2](https://github.com/HungKungE/Jogiyo-v2/assets/84065412/86104f46-5aaa-4199-954e-9ede14f43a47)
+![myStudyRoom1](https://github.com/HungKungE/Jogiyo-project/assets/84065412/c7a5975f-d7b3-484d-be6e-6e3e1ad56c3d)
+![myStudyRoom2](https://github.com/HungKungE/Jogiyo-project/assets/84065412/77a8d68a-d57c-405e-a570-d3c22ba775fb)
 
 </div>
 </details>
@@ -44,8 +44,8 @@
   > 여러 조건을 통해서 문제집을 검색할 수 있다.
   
   </br>
-  
-  ![믄제집찾기](https://github.com/HungKungE/Jogiyo-v2/assets/84065412/de75c94c-bc7a-4735-b3ed-c0457e96f82e)
+
+![믄제집찾기](https://github.com/HungKungE/Jogiyo-project/assets/84065412/0827d638-1840-46c3-aad0-64f7ce5e8186)
 
 </div>
 </details>
@@ -59,8 +59,9 @@
   
   </br>
   
-  ![풀기](https://github.com/HungKungE/Jogiyo-v2/assets/84065412/ff15dc56-833e-4786-b4a4-ed6edf837369)
-![풀기2](https://github.com/HungKungE/Jogiyo-v2/assets/84065412/e73a4d5a-2631-44ed-a176-f6b2c87e45bf)
+![풀기](https://github.com/HungKungE/Jogiyo-project/assets/84065412/3e4792ec-5cba-4543-959a-1c54d26f4442)
+![풀기2](https://github.com/HungKungE/Jogiyo-project/assets/84065412/ec26c63d-8be4-42fa-aab7-ce8f2d284935)
+
 
 </div>
 </details>
@@ -90,7 +91,7 @@
 
 > 페이지 디자인
 
-![정보입력](https://github.com/HungKungE/Jogiyo-v2/assets/84065412/fec1bed9-2f70-403c-b3a6-f403d5a9499a)
+![정보입력](https://github.com/HungKungE/Jogiyo-project/assets/84065412/073e97c9-7237-4826-b716-dbbe8785ff23)
 
 </div>
 </details>
@@ -115,7 +116,7 @@
 
 > 페이지 디자인
 
-![믄제집찾기](https://github.com/HungKungE/Jogiyo-v2/assets/84065412/2f6fb1cd-b74a-4e4c-b4ef-f806866dce49)
+![믄제집찾기](https://github.com/HungKungE/Jogiyo-project/assets/84065412/e36833ba-e7dc-4195-a822-968ba95a61c2)
 
 </div>
 </details>
