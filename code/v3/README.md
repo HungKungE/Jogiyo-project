@@ -71,6 +71,8 @@ IOS의 GoodNotes 같은 노트 필기 서비스를 무료로 제공하는 웹 �
 <div markdown="1">
   </br>
   
+  - [코드 확인](https://github.com/HungKungE/Jogiyo-project/blob/main/code/v3/client/DownloadNoteAsHighQualityPDF.ts)
+  
   > pdf-lib 모듈을 사용하여 업로드했던 pdf를 다시 다운로드했을 때, 확대하면 필기 내용의 해상도가 깨지는 문제를 해결했다.
   
   </br>
