@@ -1,6 +1,6 @@
 ## v3 : 노트 기반 질의응답 플랫폼
 
-![image](https://github.com/HungKungE/Jogiyo-v2/assets/84065412/33ff7a22-a540-4540-817a-5b3786429cb9)
+![캡처1](https://github.com/HungKungE/Jogiyo-project/assets/84065412/e0a4229a-8d07-4d5e-9005-2a8458541a23)
 
 스타트업 "모두의 코드"에서 진행한
 </br>
